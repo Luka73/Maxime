@@ -10,17 +10,17 @@ namespace Maxime.Entities
     {
         private double total;
 
-        public void addProduto(Produto produto)
+        public void AddProduto(Produto produto)
         {
-            total = total + produto.Valor + produto.ImpostoFederal;
+            total = total + produto.Preco;
         }
 
-        public double getTotal()
+        public double GetTotal()
         {
             return total;
         }
 
-        public string getNomeDoProduto(Produto produto)
+        public string GetNomeDoProduto(Produto produto)
         {
             //código/modelo – marca
             return produto.Codigo + "/" + produto.Modelo + " - " + produto.Marca;

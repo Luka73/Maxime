@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Boleto.cs" />
+    <Compile Include="Entities\Calculadora.cs" />
     <Compile Include="Entities\Produto.cs" />
     <Compile Include="Entities\Registradora.cs" />
     <Compile Include="Program.cs" />
